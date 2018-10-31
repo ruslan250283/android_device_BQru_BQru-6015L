@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_device_xiaomi_msm8953-common",
-    "target_path": "device/xiaomi/msm8953-common"
+    "repository": "android_device_BQru_msm8940-common",
+    "target_path": "device/BQru/msm8940-common"
   }
 ]

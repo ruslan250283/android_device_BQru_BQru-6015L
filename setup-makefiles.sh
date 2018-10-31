@@ -20,7 +20,7 @@ set -e
 
 # Required!
 export DEVICE=BQru_6015L
-export DEVICE_COMMON=msm8953-common
+export DEVICE_COMMON=msm8940-common
 export VENDOR=BQru
 
 export DEVICE_BRINGUP_YEAR=2018

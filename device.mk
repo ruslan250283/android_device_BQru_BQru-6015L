@@ -22,22 +22,22 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 # Inherit from msm8953-common
-$(call inherit-product, device/BQru/msm8953-common/msm8953.mk)
+$(call inherit-product, device/BQru/msm8940-common/msm8940.mk)
 
 # Audio configuration
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
     $(LOCAL_PATH)/audio/mixer_paths_mtp.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_mtp.xml
 
-# Fingerprint
+# Fingerprint под вопросом
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.0-service.xiaomi_mido
 
-# Consumerir
+# Consumerir под вопросом
 PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-service.xiaomi_mido
 
-# Ramdisk
+# Ramdisk под вопросом
 PRODUCT_PACKAGES += \
     init.mido.rc
 

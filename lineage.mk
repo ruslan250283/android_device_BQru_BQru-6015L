@@ -14,18 +14,18 @@
 # limitations under the License.
 #
 
-$(call inherit-product, device/xiaomi/mido/full_mido.mk)
+$(call inherit-product, device/BQru/BQru_6015L/full_BQru_6015L.mk)
 
 # Inherit some common LineageOS stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_mido
-BOARD_VENDOR := Xiaomi
+PRODUCT_NAME := lineage_BQru_6015L
+BOARD_VENDOR := BQru
 
-PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+PRODUCT_GMS_CLIENTID_BASE := android-BQru
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="mido-user 7.0 NRD90M V8.5.4.0.NCFMIED release-keys"
+    PRIVATE_BUILD_DESC="c800-user 8.0.0 OPR1.170623.032 eng.android.1524492184 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "xiaomi/mido/mido:7.0/NRD90M/V8.5.4.0.NCFMIED:user/release-keys"
+BUILD_FINGERPRINT := "BQru/BQru-6015L/BQru-6015L:8.0.0/OPR1.170623.032/1521717268:user/release-keys"

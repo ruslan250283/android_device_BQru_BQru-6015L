@@ -13,8 +13,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Inherit from common msm8953-common
--include device/xiaomi/msm8953-common/BoardConfigCommon.mk
+# Inherit from common msm8940-common
+-include device/BQru/msm8940-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/BQru/BQru_6015L
 
@@ -24,8 +24,8 @@ BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Kernel
-TARGET_KERNEL_CONFIG := mido_defconfig
-
+# TARGET_KERNEL_CONFIG := mido_defconfig
+TARGET_PREBUILT_KERNEL := device/BQru/BQru_6015L/kernel
 # Lineage Hardware
 BOARD_HARDWARE_CLASS += \
     $(DEVICE_PATH)/lineagehw
