@@ -16,7 +16,7 @@
 # Inherit from common msm8953-common
 -include device/xiaomi/msm8953-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/mido
+DEVICE_PATH := device/BQru/BQru_6015L
 
 # Filesystem
 BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := ext4
@@ -49,4 +49,4 @@ PRODUCT_FULL_TREBLE_OVERRIDE := true
 PRODUCT_COMPATIBILITY_MATRIX_LEVEL_OVERRIDE := 27
 
 # Inherit from the proprietary version
--include vendor/xiaomi/mido/BoardConfigVendor.mk
+-include vendor/BQru/BQru_6015L/BoardConfigVendor.mk
