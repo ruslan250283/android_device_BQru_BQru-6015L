@@ -18,10 +18,10 @@
 set -e
 
 # Required!
-export DEVICE=mido
+export DEVICE=BQru_6015L
 export DEVICE_COMMON=msm8953-common
-export VENDOR=xiaomi
+export VENDOR=BQru
 
-export DEVICE_BRINGUP_YEAR=2017
+export DEVICE_BRINGUP_YEAR=2018
 
 ./../../$VENDOR/$DEVICE_COMMON/extract-files.sh $@
