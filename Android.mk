@@ -25,6 +25,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),mido)
+ifeq ($(TARGET_DEVICE),BQru-6015L)
 include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
